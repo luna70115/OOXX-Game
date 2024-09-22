@@ -74,7 +74,7 @@ function calculateWinner(squares) {
   return null;
 }
 
-export default function Game() {
+export default function App() {
   const [value, setValue] = useState([new Array(9).fill(null)]);
   const [isjump, setIsJump] = useState(0);
   const change = isjump % 2 === 0;
