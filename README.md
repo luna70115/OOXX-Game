@@ -1,8 +1,12 @@
-# React + Vite
+React 練習專案：井字遊戲
+這個專案是基於 React 官方網站上的練習題目——井字遊戲。在這個過程中，我不僅學會了如何使用 React 建構一個互動性強的小型應用，也深入了解了 React 的核心概念，如狀態管理、組件化設計、以及單向資料流。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+除了完成基礎的遊戲功能，我還實現了以下幾個關鍵點：
 
-Currently, two official plugins are available:
+狀態回朔功能：用戶可以查看每一步的遊戲進程，這幫助我理解了 React 中的「不可變性」和如何利用它來實現狀態的回朔，這對管理複雜應用程式的狀態變更非常有幫助。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+組件的可重用性：我將遊戲的不同部分拆分為獨立的可重用組件，這樣使得程式碼更加清晰易懂，也提高了維護性。
+
+即時更新與渲染：React 的即時更新機制讓我理解到如何通過狀態改變來驅動 UI 的自動更新，這在現代前端開發中非常重要。
+
+透過這個專案，我深入掌握了 React 的基礎知識，同時也開始體會到如何在更大規模的應用中有效地進行狀態管理和組件的設計。
